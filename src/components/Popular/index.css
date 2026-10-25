@@ -1,0 +1,40 @@
+.popular-container {
+  background-color: #181818;
+  min-height: 100vh;
+}
+
+.popular-content {
+  padding: 100px 50px 40px;
+  min-height: 70vh;
+}
+
+.popular-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+}
+
+.popular-img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 1023px) {
+  .popular-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .popular-content {
+    padding: 80px 16px 30px;
+  }
+
+  .popular-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+}

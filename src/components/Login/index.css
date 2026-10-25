@@ -1,0 +1,85 @@
+.login-container {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('https://res.cloudinary.com/tjgkqsq3/image/upload/v1792921637/login_bg.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-logo {
+  height: 32px;
+  width: 140px;
+  object-fit: contain;
+  margin: 30px 0 0 50px;
+}
+
+.login-card-wrapper {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 40px;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-heading {
+  color: #ffffff;
+  font-size: 28px;
+  text-align: center;
+  margin: 0 0 24px;
+}
+
+.login-label {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.login-input {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.error-msg {
+  color: #ff0b37;
+  font-size: 13px;
+  margin: 0 0 12px;
+}
+
+.login-button {
+  background-color: #e50914;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+  .login-logo {
+    height: 24px;
+    width: 100px;
+    margin: 20px 0 0 20px;
+  }
+
+  .login-form {
+    padding: 24px;
+  }
+}
