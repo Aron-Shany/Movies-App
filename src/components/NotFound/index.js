@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {Link} from 'react-router-dom'
 import {NOT_FOUND_URL} from '../../constants'
 import './index.css'
@@ -17,6 +18,11 @@ const NotFound = () => (
         </button>
       </Link>
     </div>
+=======
+const NotFound = () => (
+  <div>
+    <h1>Page Not Found</h1>
+>>>>>>> c67b3e505f20d2caeb67eb28997b6a73fcf052ea
   </div>
 )
 

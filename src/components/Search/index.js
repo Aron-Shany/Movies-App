@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable react/no-unknown-property */
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
@@ -122,5 +123,12 @@ class Search extends Component {
     )
   }
 }
+=======
+const Search = () => (
+  <div>
+    <h1>Search Movies</h1>
+  </div>
+)
+>>>>>>> c67b3e505f20d2caeb67eb28997b6a73fcf052ea
 
 export default Search

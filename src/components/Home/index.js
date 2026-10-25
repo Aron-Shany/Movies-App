@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import {Component} from 'react'
 import Cookies from 'js-cookie'
 import Header from '../Header'
@@ -142,5 +143,13 @@ class Home extends Component {
     )
   }
 }
+=======
+const Home = () => (
+  <div>
+    <h1>Home Page</h1>
+    <p>Welcome to the Movies App!</p>
+  </div>
+)
+>>>>>>> c67b3e505f20d2caeb67eb28997b6a73fcf052ea
 
 export default Home

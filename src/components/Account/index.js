@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Cookies from 'js-cookie'
 import Header from '../Header'
 import Footer from '../Footer'
@@ -54,5 +55,12 @@ const Account = props => {
     </div>
   )
 }
+=======
+const Account = () => (
+  <div>
+    <h1>My Account</h1>
+  </div>
+)
+>>>>>>> c67b3e505f20d2caeb67eb28997b6a73fcf052ea
 
 export default Account

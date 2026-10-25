@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable react/no-unknown-property */
 import {Component} from 'react'
 import {Link} from 'react-router-dom'
@@ -168,5 +169,12 @@ class MovieItemDetails extends Component {
     )
   }
 }
+=======
+const MovieItemDetails = () => (
+  <div>
+    <h1>Movie Details</h1>
+  </div>
+)
+>>>>>>> c67b3e505f20d2caeb67eb28997b6a73fcf052ea
 
 export default MovieItemDetails
